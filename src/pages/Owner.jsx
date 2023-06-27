@@ -42,7 +42,7 @@ const Owner = () => {
         <>
         <h1>{ownerId}님의 방명록</h1>
 
-        {articles.length ? (
+        {articles.length > 0 ? (
             <ul>
                 {
                 articles.map((article)=>{
